@@ -215,9 +215,8 @@ section {
   width: 20%;
 }
 .section6 .box3 .col1 p {
-  font-size: 18px;
+  font-size: 1rem;
   max-width: 100%;
-  font-weight: 800;
 }
 
 .section7 {
@@ -564,6 +563,7 @@ footer {
   }
   .section3 {
     justify-content: center;
+    padding-inline: 20px;
   }
   .section3 .para {
     flex-basis: 95%;
@@ -607,6 +607,7 @@ footer {
   .section6 p {
     line-height: 21px;
     max-width: 95%;
+    font-size: 1rem;
   }
   .section6 .box3 {
     flex-wrap: wrap;
