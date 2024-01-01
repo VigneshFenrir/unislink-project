@@ -5,16 +5,16 @@
 }
 @font-face {
     font-family: 'robotoregular' ;
-    src: url(/unislink/fonts/Roboto-Regular.ttf) format(truetype);
+    src: url(/fonts/Roboto-Regular.ttf) format(truetype);
     font-weight: normal;  
 }
 @font-face {
     font-family: 'robotolight';
-    src: url(/unislink/fonts/Roboto-Light.ttf)format(truetype);
+    src: url(/fonts/Roboto-Light.ttf)format(truetype);
 }
 @font-face {
     font-family: 'robotomedium';
-    src: url(/unislink/fonts/Roboto-Medium.ttf)format(truetype);
+    src: url(/fonts/Roboto-Medium.ttf)format(truetype);
 }
 
 .container{
@@ -74,7 +74,7 @@ nav ul li:last-child{
         align-self: center;
         li{
 
-            // padding: .5rem;
+            padding: .5rem;
         }
 
     }
@@ -451,15 +451,17 @@ section{
         row-gap: 100px;
         color: white;
         font-weight: 600;
+        padding-block: 100px;
         
         ul li{
             list-style: none;
         }
         .bottom{
             display: flex;
-            column-gap: 50px;
+            column-gap: 30px;
             flex-flow: row wrap;
-            justify-content: space-between;
+            justify-content: center;
+            text-align: center;
         }
         .roww{
             flex-basis: 20%;
@@ -469,6 +471,21 @@ section{
             }
             .o{
                 padding-top: 4px;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                text-transform: capitalize;
+                li{
+                    form{display: flex;
+                        justify-content: center;
+                        padding-top: 10px;
+                        input{
+                            padding: 2px;
+                        }
+                    }
+                }
             }
           
         }
