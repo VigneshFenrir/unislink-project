@@ -676,6 +676,7 @@ section{
     .section4{
         p{
             line-height: 21px;
+            font-weight: 500;
         }
         gap: 20px;
         .row{
@@ -692,6 +693,7 @@ section{
         .parag3{
             line-height: 21px;
             padding-top: 0px;
+            font-size: 14px;
             font-weight: 500;
         }
         img{
@@ -742,7 +744,7 @@ section{
                 row-gap:40px;
                 text-align: center;
                 img{
-                    width: 50%;
+                    width: 80%;
                     align-self: center;
                 }
               }
@@ -813,6 +815,7 @@ section{
         line-height: 21px;
         font-size: 14px;
         max-width: 100%;
+        text-align: center;
     }
        
     .section10 > h3{
@@ -822,7 +825,7 @@ section{
     .card{
         display: flex;
         flex-flow: column;
-        row-gap: 10px;
+        row-gap: 30px;
         .images{
             display: flex;
             flex-direction: row wrap;
@@ -833,6 +836,9 @@ section{
             }
             img{
                 width: 100%;
+            }
+            .area{
+                padding: 30px;
             }
         }
     }

@@ -577,6 +577,7 @@ footer {
   }
   .section4 p {
     line-height: 21px;
+    font-weight: 500;
   }
   .section4 .row {
     flex-basis: 90%;
@@ -592,6 +593,7 @@ footer {
   .section5 .parag3 {
     line-height: 21px;
     padding-top: 0px;
+    font-size: 14px;
     font-weight: 500;
   }
   .section5 img {
@@ -641,7 +643,7 @@ footer {
     text-align: center;
   }
   .section7 .art1 img, .section7 .art2 img {
-    width: 50%;
+    width: 80%;
     align-self: center;
   }
   .section7 .art2 img {
@@ -705,6 +707,7 @@ footer {
     line-height: 21px;
     font-size: 14px;
     max-width: 100%;
+    text-align: center;
   }
   .section10 > h3 {
     font-size: 25px;
@@ -713,7 +716,7 @@ footer {
   .card {
     display: flex;
     flex-flow: column;
-    row-gap: 10px;
+    row-gap: 30px;
   }
   .card .images {
     display: flex;
@@ -726,6 +729,9 @@ footer {
   }
   .card .images img {
     width: 100%;
+  }
+  .card .images .area {
+    padding: 30px;
   }
   .footer .bottom {
     column-gap: 20px;
