@@ -555,10 +555,11 @@ section{
 
     
 // }
-@media screen and (min-width:350px) and (max-width:700px){
+@media screen and  (max-width:600px){
     .container{
         padding-inline: 5px;
         margin: auto;
+        overflow: hidden;
     }
     p{
         font-size: 14px;
@@ -566,10 +567,12 @@ section{
     }
  
     .header{
+        
      
         ul{ 
             color: white;
-            display: inline ;
+            display: flex ;
+            flex-direction: column;
             padding: 10px 10px 0px 10px;
             position: absolute;
             text-transform: capitalize;
@@ -599,11 +602,16 @@ section{
             color: rgba(38, 38, 66);
         }
     }
-    ul.left{
-        left: 67% ;
-        
+    .show {
+        left:67%;
+        opacity:1;
+      }
       
-    }
+      .hide {
+        opacity:0;
+        left:100%;
+      }
+
 
 
     i{

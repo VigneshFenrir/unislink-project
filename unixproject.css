@@ -471,10 +471,11 @@ footer {
   border-right: black 1px solid;
 }
 
-@media screen and (min-width: 350px) and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .container {
     padding-inline: 5px;
     margin: auto;
+    overflow: hidden;
   }
   p {
     font-size: 14px;
@@ -482,7 +483,8 @@ footer {
   }
   .header ul {
     color: white;
-    display: inline;
+    display: flex;
+    flex-direction: column;
     padding: 10px 10px 0px 10px;
     position: absolute;
     text-transform: capitalize;
@@ -508,8 +510,13 @@ footer {
     background-color: white;
     color: rgb(38, 38, 66);
   }
-  ul.left {
+  .show {
     left: 67%;
+    opacity: 1;
+  }
+  .hide {
+    opacity: 0;
+    left: 100%;
   }
   i {
     cursor: pointer;
